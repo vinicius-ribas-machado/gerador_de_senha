@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container-input">
+        
+        <span>Tamanho <span id="valor"> </span> caracteres</span>
+        <input id="slider" class="slider"  type="range" min="5" max="25" value="25">
+
+        <button id="button" onclick="gerarsenha()" class="button-cta">Gerar senha</button>
+    </main>
+
+    <div id="container-password"  onclick="copypasswors()" class="container-password hide">
+        
+        <span id="password" class="password"></span>
+       
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
